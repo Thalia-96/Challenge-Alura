@@ -1,49 +1,45 @@
 <!DOCTYPE html>
 
-<html lang="es">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador Alura</title>
+    <link rel="stylesheet" href="Style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header>
+        <img class="Logo" src="ImagenesChallenge/Logo.png" alt="Imagen del logo de ALura">
+    </header>
+    <main>
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width">
-        <title>Encriptador Alura</title>
-        <link rel="stylesheet" href="reset.css">
-        <link rel="stylesheet" href="Style.css">
-    </head>
-    <body>
-        <header>
-            <div class="Encabezado">
-                <h1>
-                    <img src="ImagenesChallenge/Logo.png" alt="Imagen del logo">
-                </h1>
-            </div>
-        </header>
-        <main>
-
+        <section>
+            <textarea class="Text-area" cols="20" rows="10" placeholder="Ingrese el texto aquí"></textarea>
             <div>
-                <img class="Ilustracion" src="imagenesChallenge/Muñeco.png" alt="Muñeco Ilustrativo">
-
+                <h6 class="Informacion">⚠ Solo letras minúsculas y sin acentos ⚠</h6>
             </div>
-            
-            <section class="Cuadro-De-Contenido">
-                <p>Ingresa el texto que desees encriptar o desencriptar</p>
-                <p>Ningún mensaje fue encontrado</p>
-            </section>
+            <div class="Botones">
+                <button class="btn-encriptar">Encriptar</button>
+                <button class="btn-descencriptar">Desencriptar</button>
+            </div>
+        </section>
 
-            <form>
-                <p>Solo letras minúsculas y sin acentos</p>
-                <label for="Texto"></label>
-                <textarea id="Texto" cols="30" rows="10" required placeholder="Ingrese el texto aquí"></textarea>
-                <label class="checkbox"></label>
-                <input type="submit" value= "Encriptar" class="">
-                <label class="checkbox"></label>
-                <input type="submit" value= "Desencriptar" class="">
-            </form>
+        <section>
+            <textarea class="Mensaje" cols="20" rows="10" placeholder="Aún no hay un texto ingresado"></textarea>
+            <div>
+                <button class="btn-copiar">Copiar</button>
+            </div>
+        </section>
+    </main>
+    <footer>
 
-        </main>
-        <footer>
+        <p class="P-footer">Thalía Arismendi Ibarrondo, Montevideo Uruguay 2023</p>
 
-            <p>Thalía Arismendi Ibarrondo, Montevideo Uruguay 2023</p>
-
-        </footer>
-    </body>
+    </footer>
+</body>
 </html>
+
+

@@ -1,23 +1,98 @@
-.body{
-    font-family: Arial, Helvetica, sans-serif;
+*{
+    background: whitesmoke;
+    font-family: 'Montserrat', sans-seriff;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
 }
 
-.header{
-    padding: 0%;
+.Logo{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 10%;
 }
 
-.Encbezado{
- position: absolute;
- left: 37%;
- right: 38%;
- top: 0%;
- bottom: 0%;
+main{
+    background: linear-gradient(#ffffff, #AF3413);
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
 }
 
-.Ilustracion{
-position: absolute;
-width: 336px;
-height: 304px;
-left: 1032px;
-top: 283px;
+.Text-area{
+    border: none;
+    color: #3413AF;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+::placeholder{color: #3413AF;}
+    .Cuadro-Texto :focus {
+        outline: none;
+    }
+
+.Mensaje{
+    background: white;
+    background-image: url(ImagenesChallenge/Muñeco.png);
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #3413AF;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+}
+
+.Mensaje:focus{
+    outline: none;
+    margin-top: 18px;
+}
+
+.Botones{
+    display: flex;
+    margin-top: 20px; 
+}
+
+.btn-encriptar{
+    background-color: #3413AF;
+    border: 0.1px solid #3413AF;
+    border-radius: 25px;
+    color: whitesmoke;
+    cursor: pointer;
+    height: 70px;
+    width: 330px;
+}
+
+.btn-descencriptar{
+    background-color: whitesmoke;
+    border: 0.1px solid #3413AF;
+    border-radius: 25px;
+    margin-left: 25px;
+    color: #3413AF;
+    cursor: p♪ointer;
+    height: 70px;
+    width: 330px;
+}
+
+.btn-copiar{
+    border: 0.1px solid #3413AF;
+    border-radius: 25px;
+    color: #3413AF;
+    cursor: pointer;
+    height: 70px;
+    margin-left: 100px;
+    margin-top: 400px;
+    position: absolute;
+    width: 330px;
+}
+
+.Informacion{
+    color: #8213AF;
+    font-size: 20px;
+}
+
+.P-footer{
+    text-align: center;
+    font-size: 10px;
+    color: #AF1340;
 }
