@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encriptador Alura</title>
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="Style.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     
@@ -22,18 +23,19 @@
                 <h6 class="Informacion">⚠ Solo letras minúsculas y sin acentos ⚠</h6>
             </div>
             <div class="Botones">
-                <button class="btn-encriptar">Encriptar</button>
-                <button class="btn-descencriptar">Desencriptar</button>
+                <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn-descencriptar" onclick="btnDesencriptar()">Desencriptar</button>
             </div>
         </section>
 
         <section>
-            <textarea class="Mensaje" cols="20" rows="10" placeholder="Aún no hay un texto ingresado"></textarea>
+            <textarea class="Mensaje" cols="20" rows="10" placeholder="No se ha encontrado texto aún"></textarea>
             <div>
-                <button class="btn-copiar">Copiar</button>
+                <button class="btn-copiar" onclick="copiar()">Copiar</button>
             </div>
         </section>
     </main>
+    <script src="script.js"></script>
     <footer>
 
         <p class="P-footer">Thalía Arismendi Ibarrondo, Montevideo Uruguay 2023</p>
