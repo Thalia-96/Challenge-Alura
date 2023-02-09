@@ -18,4 +18,7 @@ Funciona solo con letras minúsculas
 No deben ser utilizados letras con acentos ni caracteres especiales
 Debe ser posible convertir una palabra para la versión encriptada también devolver una palabra encriptada para su versión original.
 
--Como es mencionado arriba el programa debe poder encriptar la o las palabras pasadas es decir si se escribe "hola" ==> "hoberlai"
+-Como es mencionado arriba el programa debe poder encriptar la o las palabras pasadas es decir si se escribe
+"hola" ==> "hoberlai"
+Y así mismo poder desencriptarla
+"hoberlai" ==> "hola"
